@@ -1,0 +1,818 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+/*封面和钟医生部分*/
+.bigbox{
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #212121;
+    background-size:cover;
+	background-position: top;
+	height:5550px;
+	z-index: -999;
+	}
+.jinsebeijing{
+	width: 100%;
+	/*background-image: url(../img/zhong/golden_2.png);
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	overflow-x: hidden;
+	position:fixed;
+	top: 0;
+	z-index: -998;
+	}
+.fengmian{
+	z-index: 2;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+	background-size: cover;
+	}
+.zhong_bg{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: visible;
+	z-index:11;
+}
+#poster_fig{
+	position: absolute;
+	top: 20vh;
+	left: 30vw;
+	z-index: 12;
+	width: auto;
+}
+
+#zhong_temper{
+	position: absolute;
+	top: 105vh;
+	left: 75vw;
+}
+#zhong_text_1{
+	position: absolute;
+	top: 120vh;
+	left: 7vw;
+	z-index: 22;
+}
+#zhong_house{
+	position: absolute;
+	top: 90vh;
+	left: 0;
+}
+#zhong_diag_1{
+	position:absolute;
+	top: 130vh;
+	left: 40vw;
+}
+#zhong_diag_2{
+	position:absolute;
+	top: 140vh;
+	left: 40vw;
+}
+#zhong_text_2{
+	position:absolute;
+	top: 155vh;
+	left: 5vw;
+}
+#zhong_fig_2{
+	position: absolute;
+	top: 160vh;
+	left: 50vw;
+}
+#zhong_fig_3{
+	position: absolute;
+	top: 165vh;
+	left: 0;
+}
+#zhong_text_3{
+	position: absolute;
+	top: 185vh;
+	left: 40vw;
+}
+#zhong_text_4{
+	position: absolute;
+	top: 195vh;
+	left: 35vw;
+}
+#zhong_bridge{
+	position: absolute;
+	top: 185vh;
+	z-index: 10;
+}
+#zhong_clock{
+	position: absolute;
+	top:215vh;
+	right:0vw;
+	z-index: 21;
+}
+#zhong_footprint{
+	position: absolute;
+	top:250vh;
+	right:10vw;
+	z-index: 33;
+}
+#zhong_needle{
+	position: absolute;
+	top:260vh;
+	left: 0vw;
+	z-index: 21;
+}
+#zhong_text_5{
+	position: absolute;
+	top:280vh;
+	left:17vw;
+	z-index: 21;
+}
+#zhong_text_6{
+	position: absolute;
+	top:285vh;
+	left:5vw;
+	z-index:21;
+}
+#zhong_shoes{
+	position: absolute;
+	top:295vh;
+	left:70vw;
+	z-index:21;
+}
+
+/*封面和钟医生部分结束*/
+#water{
+	position: absolute;
+	top:245vh;
+	left:0;
+	z-index: 19;
+}
+/*尹医生部分*/
+.yin{
+	background-color: #d9dadf;
+	width: 100%;
+	height:auto;
+	overflow-x: hidden;
+	overflow-y: visible;
+	position: relative;
+	z-index: 17;
+}
+.yin_bg{
+	position: relative;
+	/*background-image: url(../img/yin/bg1.png);*/
+	width: 100%;
+	height:auto;
+	/*background-repeat: no-repeat;
+	background-size: cover;*/
+	z-index:13;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#yin_water_2{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#yin_house{
+	position: absolute;
+	top:0;
+	right:0vw;
+}
+#yin_fig_1{
+	position: absolute;
+	top:25vh;
+	right: 5vw;
+}
+#yin_raindrop_1{
+	position: absolute;
+	top:0;
+	right:0;
+}
+#yin_raindrop_2{
+	position: absolute;
+	top:30vh;
+	right:0;
+}
+#yin_raindrop_3{
+	position: absolute;
+	top:55vh;
+	right:0;
+}
+#yin_raindrop_4{
+	position: absolute;
+	top:55vh;
+	left:0;
+}
+#yin_boat_1{
+	position: absolute;
+	top:50vh;
+	right:10vw;
+}
+#yin_text_1{
+	position: absolute;
+	top:30vh;
+	left:7vw;
+}
+#yin_dialog_1{
+	position: absolute;
+	top:65vh;
+	right: 20vw
+}
+#yin_text_2{
+	position: absolute;
+	top:105vh;
+	left:5vw;
+}
+#yin_wave_1{
+	position: absolute;
+	top:110vh;
+	left:5vw;
+	animation-duration: 3s;
+}
+#yin_wave_2{
+	position: absolute;
+	top:125vh;
+	right:10vw;
+}
+#yin_text_3{
+	position: absolute;
+	top:145vh;
+	left:5vw;
+}
+#yin_boat_2{
+	position: absolute;
+	top:160vh;
+	left:0;
+	animation-duration: 5s;
+}
+#yin_boat_3{
+	position: absolute;
+	top:205vh;
+	right:30vw;
+}
+#yin_bg_2{
+	position: absolute;
+	top:0vh;
+	left: 0;
+}
+#yin_text_4{
+	position: absolute;
+	top:5vh;
+	left:10vw;
+}
+#yin_light_1{
+	position: absolute;
+	top:5vh;
+	left:0;
+}
+#yin_light_2{
+	position: absolute;
+	top:19vh;
+	left:36vw;
+	z-index: 31;
+}
+#yin_fig_2{
+	position: absolute;
+	top:5vh;
+	right:35vw;
+}
+#yin_box{
+	position: absolute;
+	top:35vh;
+	left:0vw;
+	z-index: 31;
+}
+#yin_bg_3{
+	position: absolute;
+	top:55vh;
+	left:0;
+}
+#yin_hand{
+	position: absolute;
+	top:60vh;
+	left:0;
+}
+#yin_text_5{
+	position: absolute;
+	top:80vh;
+	right:35vw;
+}
+#yin_text_6{
+	position: absolute;
+	top:90vh;
+	left:30vw;
+	z-index: 31;
+}
+#yin_bg_4{
+	position: absolute;
+	top:95vh;
+	left:0;
+}
+#yin_sun{
+	position: absolute;
+	top:130vh;
+	left:20vw;
+	animation-duration: 5s;
+}
+#yin_mountains{
+	position: absolute;
+	top:140vh;
+	left:0;
+}
+#yin_birds{
+	position: absolute;
+	top:130vh;
+	left:0;
+}
+#yin_text_7{
+	position: absolute;
+	top:170vh;
+	left:5vw;
+}
+#yin_boat_4{
+	position: absolute;
+	top:165vh;
+	left:55vw;
+	animation-duration: 3s;
+}
+/*尹医生部分定位结束*/
+
+/*接生医生部分开始*/
+.tj{
+	position: relative;
+	top: -2px;
+	width: 100%;
+	height: auto;
+	z-index: 30;
+	overflow-x: hidden;
+	
+}
+.tj_first{
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: visible;
+	z-index: 31;
+	position: relative;
+}
+#tj_flower_left{
+	position:absolute;
+	top:5px;
+	left:-15px;
+}
+#tj_flower_right{
+	position:absolute;
+	top:5vh;
+	right:15vw;
+}
+#tj_text_1{
+	position: absolute;
+	top: 3vh;
+	left:30vw;
+}
+#tj_house{
+	position:absolute;
+	top:15vh;
+	right:50vw;
+}
+#tj_dialog_1{
+	position:absolute;
+	top:30vh;
+	left:5vw;
+}
+#tj_dialog_2{
+	position:absolute;
+	top:37vh;
+	left:10vw;
+}
+#tj_text_2{
+	position: absolute;
+	top: 80vh;
+	left: 30vw;
+}
+#tj_fig_1{
+	position: absolute;
+	top: 90vh;
+	left: 0;
+	z-index: 33;
+}
+#tj_blood_left{
+	position: absolute;
+	top:70vh;
+	left: 0;
+	z-index: 32;
+	animation-delay: 0.3s;
+}
+#tj_blood_right{
+	position: absolute;
+	top: 100vh;
+	right:30vw;
+	z-index: 32;
+}
+#tj_dialog_3{
+	position: absolute;
+	top: 110vh;
+	left:5vw;
+	z-index: 33;
+}
+#tj_text_3{
+	position: absolute;
+	top: 140vh;
+	left:25vw;
+	z-index: 36;
+}
+#tj_text_4{
+	position: absolute;
+	top: 145vh;
+	left:30vw;
+	z-index: 36;
+}
+#tj_item_1{
+	position: absolute;
+	top: 140vh;
+	left:0;	
+	z-index: 33;
+}
+#tj_item_2{
+	position: absolute;
+	top: 145vh;
+	right:10vw;
+	z-index: 33;
+}
+#tj_item_3{
+	position: absolute;
+	top: 165vh;
+	right:10vw;
+	z-index: 33;
+}
+#tj_item_4{
+	position: absolute;
+	top: 165vh;
+	left:0;
+	z-index: 33;
+}
+#tj_item_5{
+	position: absolute;
+	top: 180vh;
+	right:15vw;
+	z-index: 33;
+}
+#tj_fig_2{
+	position: absolute;
+	top: 133vh;
+	left:23vw;
+	z-index: 35;
+	animation-duration: 8s;
+}
+#tj_fig_3{
+	position: absolute;
+	top: 193vh;
+	left:40vw;
+	z-index: 34;
+}
+#tj_text_5{
+	position: absolute;
+	top: 185vh;
+	left:4vw;
+	z-index: 39;
+}
+#tj_text_6{
+	position: absolute;
+	top: 200vh;
+	left:4vw;
+	z-index: 39;
+}
+#tj_bg_2{
+	position: relative;
+	top: -4px;
+}
+#tj_text_7{
+	position:absolute;
+	top: 270vh;
+	left: 40vw;
+	z-index: 36;
+}
+#tj_bg_3{
+	position: relative;
+	top: -9px;
+}
+#tj_fig_4{
+	position: absolute;
+	top: 255vh;
+	left:2vw;
+}
+#tj_text_8{
+	position:absolute;
+	top: 285vh;
+	left: 40vw;
+	z-index: 36;
+}
+#tj_stone_right{
+	position:absolute;
+	top: 300vh;
+	left: 55vw;
+}
+#tj_text_9{
+	position:absolute;
+	top: 310vh;
+	left: 30vw;
+	z-index: 36;
+}
+#tj_stone_left{
+	position:absolute;
+	bottom: 35vh;
+	left: 35vw;
+}
+#tj_text_10{
+	position:absolute;
+	bottom: 20vh;
+	left: 5vw;
+}
+#tj_fig_5{
+	position: absolute;
+	bottom:5vh;
+	left:60vw;
+}
+#tj_text_11{
+	position:absolute;
+	bottom:5vh;
+	left: 15vw;
+}
+/*第三部分接生医生结束*/
+.last{
+	position: relative;
+	/*top: -2px;*/
+	width: 100%;
+	height: auto;
+	z-index: 40;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+#last_bg_1{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: visible;
+	z-index: 41;
+	position: relative;
+}
+#last_text_1{
+	position: absolute;
+	top: 10vh;
+	left: 10vw;
+	z-index: 42;
+}
+#last_medical_kit img{
+	position: absolute;
+	top: 20vh;
+	left: 5vw;
+}
+#last_button_medical{
+	position: absolute;
+	top: 35vh;
+	left: 50vw;
+}
+#last_text_medical img{
+	position: absolute;
+	top: 40vh;
+	right: 0;
+	z-index: 43;
+}
+#last_abacus img{
+	position: absolute;
+	top: 45vh;
+	left: 10vw;
+}
+#last_button_abacus{
+	position: absolute;
+	top: 62vh;
+	left: 50vw;
+}
+#last_text_abacus img{
+	position: absolute;
+	top: 70vh;
+	left: 12vw;
+	z-index: 999;
+}
+#last_book img{
+	position: absolute;
+	top: 65vh;
+	right: 0;
+}
+#last_button_book{
+	position: absolute;
+	top: 82vh;
+	left: 60vw;
+}
+#last_text_book img{
+	position: absolute;
+	top:85vh;
+	left: 5vw;
+	z-index: 43;
+}
+#last_bg_2{
+	width: 100%;
+	height: 650px;
+	z-index: 41;
+	background-color: #fff;
+	position: relative;
+	top: -5px;
+}
+#last_poetry img{
+	position:absolute;
+	top: 100vh;
+	left: 5vw;
+	z-index: 42;
+}
+#last_button_poetry{
+	position:absolute;
+	top: 120vh;
+	left: 55vw;
+	z-index: 43;
+}
+#last_text_poetry img{
+	position:absolute;
+	top: 100vh;
+	right: 5vw;
+	z-index: 44;
+}
+#last_text_2 img{
+	position:absolute;
+	bottom: 10vh;
+	left: 5vw;
+	z-index: 44;
+}
+#last_slider{
+	width: 100%;
+	height:35vh;
+	background-color: #212121;
+	position: relative;
+	top: -5px;
+}
+/*slider开始*/
+.jssorl-009-spin img {
+	animation-name:jssorl-009-spin;
+	animation-duration:1.6s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear
+}
+@keyframes jssorl-009-spin {
+	from {
+	transform:rotate(0);
+}
+to {
+	transform:rotate(360deg);
+}
+}.jssorb051 .i {
+	position:absolute;
+	cursor:pointer
+}
+.jssorb051 .i .b {
+	fill:#fff;
+	fill-opacity:.5
+}
+.jssorb051 .i:hover .b {
+	fill-opacity:.7
+}
+.jssorb051 .iav .b {
+	fill-opacity:1
+}
+.jssorb051 .i.idn {
+	opacity:.3
+}
+.jssora051 {
+	display:block;
+	position:absolute;
+	cursor:pointer
+}
+.jssora051 .a {
+	fill:none;
+	stroke:#fff;
+	stroke-width:360;
+	stroke-miterlimit:10
+}
+.jssora051:hover {
+	opacity:.8
+}
+.jssora051.jssora051dn {
+	opacity:.5
+}
+.jssora051.jssora051ds {
+	opacity:.3;
+	pointer-events:none
+}
+/*slider结束*/
+/*视频*/
+.video{
+	position: relative;
+	top: -5px;
+}
+/*视频结束*/
+/*人物部分*/
+.figure{
+	position: relative;
+	top: -7px;
+	z-index: 50;
+	overflow-x: hidden;
+	overflow-y: visible;
+	width: 100%;
+	height: 1192.28px;
+}
+#last_bg_3{
+	/*position:absolute;
+	top: 0;
+	left: 0;*/
+	position: relative;
+	top: -7px;
+	overflow-x: hidden;
+	overflow-y: visible;
+	z-index: 50;
+}
+#last_fig_1 img{
+	position: absolute;
+	top: 5vh;
+	left: 0;
+}
+
+#last_voice_left audio{
+	position: absolute;
+	top: 18vh;
+	left: 35vw;
+	z-index:55;
+}
+#last_fig_2 img{
+	position: absolute;
+	top: 15vh;
+	right: 0;
+}
+#last_voice_right audio{
+	position: absolute;
+	top: 40vh;
+	right: 25vw;
+	z-index: 55;
+	animation-delay: 0.05s;
+}
+#last_fig_3 img{
+	position: absolute;
+	top: 40vh;
+	left: 0;
+}
+#last_fig_4 img{
+	position: absolute;
+	top: 60vh;
+	right: 0;
+}
+#last_fig_5 img{
+	position: absolute;
+	top: 95vh;
+	left: 0;
+}
+#last_hand_1 img{
+	position: absolute;
+	top: 25vh;
+	left: -5vw;
+	z-index: 51;
+}
+#last_hand_2 img{
+	position: absolute;
+	top: 45vh;
+	right: 0;
+	z-index: 51;
+}
+#last_hand_3 img{
+	position: absolute;
+	top: 65vh;
+	left: 0;
+	z-index: 51;
+}
+#last_hand_4 img{
+	position: absolute;
+	top: 85vh;
+	right: 0;
+	z-index: 51;
+}
+
+#last_hand_5 img{
+	position: absolute;
+	top: 125vh;
+	left: 0;
+	z-index: 51;
+}
+
+#last_bg_4{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 51;
+}
+#last_text_3 img{
+	position: absolute;
+	bottom:3vh;
+	left:15vw;
+	z-index: 52;
+}
+
+.content {
+	display:none;
+}
